@@ -22,9 +22,9 @@
 module Opscode
   module IIS
     module Helper
-      if RUBY_PLATFORM =~ /mswin|mingw32|windows/
-        require 'chef/win32/version'
-      end
+      #if RUBY_PLATFORM =~ /mswin|mingw32|windows/
+      #  require 'chef/win32/version'
+      #end
 
       require 'rexml/document'
       include REXML
